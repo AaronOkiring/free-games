@@ -12,7 +12,7 @@ export function Welcome() {
   return (
     <main className="bg-slate-500  flex items-center justify-center pt-0 pb-2">  
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">     
-      <div className="fixed z-50 top-0  bg-cyan-800 flex min-w-[250px] flex-wrap h-15 place-content-evenly w-12/12 ">
+      <div className="fixed z-50 top-0  bg-cyan-800 flex  flex-wrap h-15 place-content-evenly w-full ">
         <div>FREETOGAME</div>
         <div className="inline-block">Games list <FaRegListAlt className="inline-block" />  </div>
         <div className="inline-block">Special offers  <IoMdGift className="inline-block"  />  </div>

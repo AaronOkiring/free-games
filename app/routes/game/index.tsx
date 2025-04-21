@@ -82,7 +82,7 @@ function gameDetails() {
           <div className="inline-block text-amber-50"><IoMdContact className="inline-block text-2xl w-5" />Requires 3rd party Account. </div>
         </div>
 
-        <div className=" border-red-300 mr-5 pl-2 mt-17 lg:w-200 ml-10">
+        <div className="  mr-5 pl-2 mt-17 lg:w-200 ml-10">
           <div className=" h-80  ">
             <h1 className="mt-3 text-3xl text-red-600"> {gameDetails?.title}</h1>
             <h1 className=" text-2xl inline-block "> <FaStar className="inline-block" />  Massively positive</h1>

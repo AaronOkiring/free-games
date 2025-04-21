@@ -24,8 +24,8 @@ console.log(mydata);
   return (
     
     
-    <div className=" w-12/12  mt-1 mb-10 mr-4 ml-0 p-4 content-evenly bg-blue-950 space-y-6 px-4">         
-      <p className="border-2 grid gap-4 grid-cols-4 border-black-500 min-w-[250px] justify-evenly  min-h-[250px] dark:text-gray-200 text-1.5">
+    <div className=" w-full  mt-1 mb-10 mr-4 ml-0 p-4 content-evenly bg-blue-950 space-y-6 px-4">         
+      <p className=" grid gap-4 sm:grid-cols-2 lg:grid-cols-4 border-black-500  justify-evenly   dark:text-gray-200 text-1.5">
       {mydata !=null && mydata.map((game, idx)=>  <GameCard key={idx} game={game} /> )}  
            
                 
