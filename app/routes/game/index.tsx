@@ -62,7 +62,7 @@ function gameDetails() {
 
 
   return (
-    <div className="bg-slate-700 flex flex-wrap ml-1.5  ">
+    <div className="bg-slate-700 flex flex-wrap ml-1.5 h-full  lg:mb-10 ">
       <nav className="text-2xl  flex content-evenly"><HamburgerMenu /></nav>
 
       <div className=" lg:flex  lg:gap-25.5 p-2">
@@ -82,7 +82,7 @@ function gameDetails() {
           <div className="inline-block text-amber-50"><IoMdContact className="inline-block text-2xl w-5" />Requires 3rd party Account. </div>
         </div>
 
-        <div className=" border-red-300 mr-5 pl-2 mt-17 h-420 lg:w-200 ml-10">
+        <div className=" border-red-300 mr-5 pl-2 mt-17 lg:w-200 ml-10">
           <div className=" h-80  ">
             <h1 className="mt-3 text-3xl text-red-600"> {gameDetails?.title}</h1>
             <h1 className=" text-2xl inline-block "> <FaStar className="inline-block" />  Massively positive</h1>
@@ -171,17 +171,20 @@ function gameDetails() {
 
 
 
-      <div className="fixed z-50 bottom-0 bg-cyan-800 left-0 right-0 flex-wrap px-2 py-3">
+      <div className="fixed z-50 bottom-0 bg-cyan-800 w-full  px-2 py-3">
         <div className="mt-3">We use cookies to make our browsing experience better.</div>
-        <div>
+        <div className="flex">
           <button className=" cursor-pointer border-2 border-amber-50 hover:bg-sky-700 mt-3   w-20 rounded-xl">
             Accept
             </button>
-          </div>
-        <div>
-          <button className=" cursor-pointer border-2 border-amber-50 hover:bg-sky-700 mt-3 rounded-xl">
+
+
+            <button className=" cursor-pointer border-2 border-amber-50 hover:bg-sky-700 mt-3 rounded-xl">
           learn more</button>
           </div>
+          </div>
+        <div>
+
       </div>
 
     </div>
